@@ -1,0 +1,66 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Embedded YouTube Videos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    @media (max-width: 900px) {
+      .video-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 600px) {
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="video-grid">
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/XxTP_QVijIY" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/MOv-evp9TpQ" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/0mc4_4rhlCg" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/l3xY8mhHWU4" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/miomuSGoPzI" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/nYpO3QTWsH4" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/XQaKFU3Fh_M" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/PyUkEF1dHW4" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/r3z54SZsLsA" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/msSc7Mv0QHY" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/oxnSZ2ops0o" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/gD8F87l6ADw" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/DtrJwLfNQPs" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/0AvNNMwXH38" allowfullscreen=""></iframe></div>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/k-2RHDasPyg" allowfullscreen=""></iframe></div>
+  </div>
+
+</body></html>
